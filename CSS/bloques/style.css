@@ -1,3 +1,6 @@
+*{
+    background-color: aqua;
+}
 .container{
     width: 950px;
     background-color: silver;

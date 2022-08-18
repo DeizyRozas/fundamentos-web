@@ -1,0 +1,28 @@
+* {
+    margin: 10px;
+}
+h1{
+    background-color: black;
+    color:aliceblue;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+span{
+    color: aqua;
+}
+h2{
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    font-style: oblique;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h3{
+    background-color: #9fc5f8;
+    color: #353169;
+    padding: 10px;
+    text-align: right;
+    text-decoration-line: underline;
+}
