@@ -1,0 +1,36 @@
+.buscar {
+    outline: 20px;
+    border-color: aqua;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    color:#61bbbc;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+
+}
+
+.redondo{
+    border-radius: 50px;
+    background-color: #00d1b2;
+    color:antiquewhite;
+    border: #00d1b2;
+    font-weight: bolder;
+    height: 30px;
+    width: 30px;
+}
+
+div {
+    margin: 15px;
+}
+
+.rectangulo{
+    background-color: #2b78e4;
+    outline-color: black;
+    box-shadow: 6px 5px 5px black;
+    width: 150px;
+    height: 40px;
+    color: #ebf2fc;
+    font-weight:bold;
+
+}
