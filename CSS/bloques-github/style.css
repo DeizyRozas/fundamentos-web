@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+img{
+    height: 250px;
+    width: 250px;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.fila1{
+    background-color:#D0F2e9;
+}
+
+.fila2{
+    background-color: #f2e8c9;
+}
+
+.fila3{
+    background-color: #f2d8ce;
+}
