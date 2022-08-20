@@ -1,0 +1,24 @@
+.row{
+    display: flex;
+    margin: 15px;
+    height: 100px;
+}
+
+
+.col, .col-2, .col-3{
+    flex: 1;
+    margin: 5px;
+    background-color: rosybrown;
+    color: antiquewhite;
+    font-weight: bolder;
+    font-size: larger;
+    text-align: center;
+}
+
+.col-2{
+    flex:2;
+}
+
+.col-3{
+    flex:3;
+}
