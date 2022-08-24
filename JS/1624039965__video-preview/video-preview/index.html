@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- top navigation -->
+    <div class="top">
+        <div class="nav-container">
+            <h1>VideoLab</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn">Login</button>
+        </div>
+    </div>
+
+    <!-- main content -->
+    <div class="flex-container">
+
+        <!-- left column -->
+        <div class="col-l">
+
+            <!-- this is a placeholder replace it with a real video -->
+            <div class="video-principal">
+                <video src="https://vod-progressive.akamaized.net/exp=1661373835~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2769%2F20%2F513845153%2F2379217788.mp4~hmac=bbb2469c306d63bdd23a6f2b3e633f2f4340bce1913f6dd5aafe115c4fbd5380/vimeo-prod-skyfire-std-us/01/2769/20/513845153/2379217788.mp4" onmouseover= "play(this)" onmouseout="stop(this)"></video>
+            </div>
+
+            <!-- video info -->
+            <div class="row">
+                <div class="start">
+                    <h1>Example Video Title</h1>
+                    <h3>1.3K Views | June, 18, 2021</h3>
+                    <div class="user">
+                        <img src="assets/user.png" alt="user-circle" class="avatar-s">
+                        <span class="user-name">Example User Name</span>
+                    </div>
+                </div>
+                <button class="btn">Subscribe</button>
+            </div>
+
+        </div>
+
+        <!-- right column -->
+        <div class="col-r">
+
+            <h3 class="sub-header">Up Next</h3>
+
+            <div class="video-small">
+                <video class= "vid-s" src="https://player.vimeo.com/external/565636566.sd.mp4?s=1a7ed8af27dbc97c89367462ed23b783aab819df&profile_id=164&oauth2_token_id=57447761" onmouseover= "play(this)" onmouseout="stop(this)"></video>
+                <span class="video-title">El lugar mas lindo que visitarás</span>
+            </div>
+
+            <div class="video-small">
+                <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s">
+                <span class="video-title">10 Facts About ET's Cat!</span>
+            </div>
+
+            <div class="video-small">
+                <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s">
+                <p class="video-title">5 Cosplay Tips</p>
+            </div>
+
+            <div class="video-small">
+                <img src="assets/video-placeholder.png" alt="video placeholder" class="vid-s">
+                <span class="video-title">Boy Battles Dinobot in Thunderdome</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
