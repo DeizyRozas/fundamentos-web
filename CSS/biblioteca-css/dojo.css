@@ -11,7 +11,11 @@
 }
 
 .btn{
-
+  background-color: #93c47d;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  width: 150px;
+  height: 28px;
 }
 
 .navbar{
