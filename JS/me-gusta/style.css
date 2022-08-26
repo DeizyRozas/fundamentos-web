@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: 3px solid black;
+    width: fit-content;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.usuario{
+    display: flex;
+    justify-content:space-between;
+    margin: 15px;
+}
+h2{
+    flex: 3;
+}
+
+.btn{
+    background-color: #93c47d;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+    width: 100px;
+    height: 28px;
+    flex: 3;
+    margin-left: 70px;
+}
+
+.description{
+    margin: 15px;
+}
+
+.usuario p, span{
+    flex: 0.5;
+}
