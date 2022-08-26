@@ -11,7 +11,7 @@
     <header>
         <h1>Dojonario</h1>
         <input type="text" name="search" id="search" placeholder="Buscar">
-        <button class="enter">Entrar</button>
+        <button class="enter" onclick="salir(this)">Entrar</button>
     </header>
 
     <main>
@@ -21,33 +21,32 @@
                     <h2>Ninja</h2>
                     <p><span>Pronombre</span></p>
                     <p>plural: <span>Ninjas</span></p>
-                    <button>13 likes</button>
+                    <button onclick="alert('Ninja was liked')">13 likes</button>
                 </div>
                 <p>
-                    Guerrero mercenario japonés que estaba entrenado en el arte del ninjutsu.
+                    Guerrero mercenario <a href="#">japonés</a> que estaba entrenado en el arte del <a href="#">ninjutsu.</a> 
                 </p>
             </div>
     
             <div class="definitions-cont">
                 <div>
                     <h2>Ninja</h2>
-                    <p><span>Pronombre</span></p>
+                    <span>Pronombre</span>
                     <p>plural: <span>Ninjas</span></p>
-                    <button>35 likes</button>
+                    <button onclick="alert('Ninja was liked')">35 likes</button>
                 </div>
                 <p>
-                    Programador que resuelve problemas con  enfoque zen
+                    <a href="#">Programador</a> que resuelve problemas con  enfoque <a href="#">zen</a>
                 </p>
             </div>
         </nav>
     
         <nav class="col-2">
-            <h2>El Dojonario esta definido por</h2>
-            <button>Agregar definición</button>
+            <h2>El Dojonario esta definido por <strong>Tí</strong></h2>
+            <button onclick="remove(this)">Agregar definición</button>
         </nav>
     </main>
-
-    
+    <script src="script.js"></script>
     
 </body>
 </html>
