@@ -23,7 +23,7 @@
         <div class="sidebar">
             <div class="col">
                 <div class="photo-cont">
-                    <img class= "profile-pic" src="icons/user-circle.png" alt="usuario">
+                    <img class= "profile-pic" src="https://i.pinimg.com/564x/f1/aa/fe/f1aafe55745e07bdfd8e16d5a3a77197.jpg" alt="usuario">
                 </div>
                 <div class="info">
                     <h2 class="nombre"> Jane Doe</h2>
@@ -33,7 +33,7 @@
                     <p>Maestra de las sombras y el internet</p>
                     
                     <p class="link">
-                        <a href="#">
+                        <a href="#" onclick="editName()">
                         <img class="config-img" src="icons/gear.png" alt="rueda dentada"> Editar Perfil
                         </a>
                     </p>
@@ -54,27 +54,27 @@
         <div class="sidebar">
             <div class="col">
                 <div class="header-block">
-                    <span>2</span>
-                    <h3>Solicitud de conexion</h3>
+                    <p class="conectionRequest">2</p>
+                    <h3 >Solicitud de conexion</h3>
                 </div>
                 <div class="request">
-                    <div class="friends">
+                    <div class="friends" id="contacto">
                         <img src="images/todd-s.jpg" alt="todd">
                         <p>Todd E</p>
-                        <img src="icons/accept-circle.png" alt="aceptar">
-                        <img src="icons/close-circle.png" alt="declinar">
+                        <img src="icons/accept-circle.png" alt="aceptar" onclick="remove(), like()">
+                        <img src="icons/close-circle.png" alt="declinar" onclick="remove()">
                     </div>
-                    <div class="friends">
+                    <div class="friends" id="contacto2">
                         <img src="images/phil-s.jpg" alt="phil k">
                         <p>Phil K</p>
-                        <img src="icons/accept-circle.png" alt="aceptar">
-                        <img src="icons/close-circle.png" alt="declinar">
+                        <img src="icons/accept-circle.png" alt="aceptar" onclick="remove2(), like()">
+                        <img src="icons/close-circle.png" alt="declinar" onclick="remove2()">
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="header-block">
-                    <span>500+</span>
+                    <p class="yourConections">418</p>
                     <h3>Tus conexiones</h3>
                 </div>
                 <div class="friends">
@@ -101,5 +101,6 @@
         </div>
         
     </nav>
+    <script src="script.js"></script>
 </body>
 </html>
