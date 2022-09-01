@@ -5,7 +5,7 @@ function alerta(element){
 }
 
 function dismiss(){
-    document.querySelector("footer").remove();
+    document.querySelector(".window").remove();
 }
 
 
