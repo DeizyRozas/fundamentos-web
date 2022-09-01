@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiempo Dojo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>TiempoDojo</h1>
+        <ul class="selectCity"  >
+            <li onclick="alerta(this)">Positano</li>
+            <li onclick="alerta(this)">Roma</li>
+            <li onclick="alerta(this)">Montepulciano</li>
+        </ul>
+    </nav>
+    <main>
+        <div class="city">
+            <h2>Siena</h2>
+            <label id="grados">Mostrar temperatura en</label> 
+            <select name="grados" id="temperature" onChange="selectTemp()" >
+                <option  value="celsius">°C</option>
+                <option value="farenheit">°F</option>
+                <option value="kelvin">°K</option>
+            </select>
+        </div>
+        
+        <div class="days">
+            <div class="day"> 
+                <h3> Hoy</h3>
+                <img class="tempImg" src="assets\some_rain.png" alt="algo de lluvia">
+                <p>Algo de lluvia</p>
+                <p class="temperature" class="celsius"> 24 <span class="celsius">18</span> </p>
+            </div>
+            <div class="day">
+                <h3> Mañana</h3>
+                <img class="tempImg" src="assets\some_sun.png" alt="algo de sol">
+                <p>Algo de sol</p>
+                <p class="temperature" class="celsius">27 <span class="celsius">19</span> </p>
+            </div>
+            <div class="day">
+                <h3> Viernes</h3>
+                <img class="tempImg" src="assets\some_clouds.png" alt="algo de nubes">
+                <p>Algo de nubes</p>
+                <p class="temperature" class="celsius">21 <span class="celsius">16</span> </p>
+            </div>
+            <div class="day">
+                <h3> Sabado</h3>
+                <img class="tempImg" src="assets\some_sun.png" alt="algo de sol">
+                <p>Algo de sol</p>
+                <p class="temperature" class="celsius">26 <span class="celsius">21</span></p>
+            </div>
+        </div>
+        <footer>
+            <img src="assets/cookie.png" alt="galleta">
+            <div>
+                <h3>Stop! Tiempo de cookies</h3>
+                <p>Usamos galletas (no las que se comen) para personalizar contenido y anuncios, para poveer Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <a href="#">leer mas</a>
+            </div>
+            <button class="dismiss" onclick="dismiss()" >Aceptar</button>
+        </footer>
+        
+
+    </main>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
