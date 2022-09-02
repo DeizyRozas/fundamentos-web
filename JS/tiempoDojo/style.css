@@ -72,15 +72,22 @@ main{
     font-size:130% ;
 }
 
-.day span{
-    margin-left:40% ;
-    color: #2e7ae3;
+.temp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.temperature{
-    margin-top: 5%;
+.celsius, .blue{
+    color: #2e7ae3;
+    font-weight: 700;
+
+    
+}
+
+.temperature, .red{
     color: #cf2b28;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .window{
@@ -109,7 +116,4 @@ main{
     height: 2em;
 }
 
-footer p{
-    display: inline;
-}
 
